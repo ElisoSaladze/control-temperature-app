@@ -1,13 +1,94 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-container {
+  height: 400px;
+  width: 300px;
+  background: #696969;
+  border-radius: 20px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+.temperature-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temperature-container {
+  background: #008482;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  border: 3px #ffffff solid;
+  border-radius: 50%;
+  font-size: 50px;
+  transition: background 0.5s;
+}
+.button-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+button {
+  border-radius: 100px;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  background-color: #C0C0C0;
+  border: 2px #ffffff solid;
+}
+button:hover {
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+}
+.aspen {
+  background: #008482;
+}
+.grass-green {
+  background: #65912e;
+}
+.spring-green {
+  background: #7eae45;
+}
+.citron {
+  background: #fcff00;
+}
+.safron {
+  background: #e7a037;
+}
+.sunshine {
+  background: #fd8a23;
+}
+.shrimp {
+  background: #f35f00;
+}
+.cloud-blue {
+  background: #84b2e6;
+}
+.aster {
+  background: #4489da;
+}
+.denim {
+  background: #2b5d96;
+}
+.bluebell {
+  background: #15b5da;
+}
+.wisteria {
+  background: #b69bc9;
+}
+.violet {
+  background: #66427c;
+}
+.red {
+  background: red;
 }
